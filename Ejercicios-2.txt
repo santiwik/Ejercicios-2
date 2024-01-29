@@ -1,0 +1,32 @@
+https://github.com/santiwik/Ejercicios-2
+Ejercicios (2) Daniel Santiso Candel
+
+
+1. Ejercicio 1 
+	1. git log
+	2. mkdir capitulos
+	   cd capitulos
+	   echo Git es un sistema de control de versiones ideado por Linus Torvalds > capitulo1.txt
+	3. git add capitulo1.txt
+	4. git commit -m "Añadido capítulo 1."
+	5. git log
+
+2. Ejercicio 2
+	1. echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. > capitulo2.txt
+	2. git add capitulo2.txt
+	3. git commit -m "Añadido capítulo 2."
+	4. git diff
+
+3. Ejercicio 3
+	1. echo Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas. > capitulo3.txt
+	2. git add capitulo3.txt
+	3. git commit -m "Añadido capítulo 3."
+	4. git diff --staged
+
+4. Ejercicio 4 
+	1. cd .. 
+	   echo Capítulo 5: Conceptos avanzados > indice.txt
+	2. git add indice.txt
+	3. git commit -m "Añadido capitulo 5 al indice"
+	4. git log --follow indice.txt
+	
